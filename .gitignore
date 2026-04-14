@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints (too large for GitHub)
+models/checkpoints/
+*.pth
+
+# Keep XGBoost model (small)
+!models/xgboost_model.json
